@@ -1,1 +1,4 @@
-# Recommendation_system
+# 작품 줄거리를 활용한 넷플릭스 추천 시스템
+
+
+
