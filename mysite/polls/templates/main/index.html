@@ -1,0 +1,27 @@
+<!-- templates/home.html -->
+<h1>NETFLIX 유사작품 추천</h1>
+
+<!-- Search Form  -->
+<form action="" method='GET'>
+    <div class="row" style="margin-bottom:15px;">
+        <div class="col-lg-5">
+            <div class="input-group">
+                <input type="text" class="form-control" name="search_key" value="{{ search_key }}"
+                    placeholder="looking for...">
+                <span class="input-group-btn">
+                    <input class="btn btn-default" type="submit" value="Search">
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+</form>
+
+<div class="row">
+    <div id="video_list_search" class="col-md-12">
+        {% for object in ost %}
+        <a href="/blog/{{ object.pk }}">
+            <h4>{{ object.title }}</h4>
+        </a>
+        {% endfor %}
+    </div>
+</div>
