@@ -6,4 +6,5 @@
 
 
 
+<img src="./captures/home.png" width="70%" height="70%" />
 ![home](./captures/home.png){: width="70%" height="70%"}
