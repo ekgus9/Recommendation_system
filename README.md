@@ -10,6 +10,10 @@
 
 
 
+### 사용 기술: Python, Django, Selenium, BeautifulSoup, Word2vec, Konlpy
+
+
+
 #### - 홈 화면 : 작품을 검색하거나 작품을 눌러 해당 작품의 소개 및 추천 작품을 본다. 
 
 
