@@ -10,7 +10,7 @@
 
 
 
-### 사용 기술: Python, Django, Selenium, BeautifulSoup, Word2vec, Konlpy
+#### 사용 기술: Python, Django, Selenium, BeautifulSoup, Word2vec, Konlpy
 
 
 
